@@ -52,6 +52,54 @@ body {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+header {
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logo-img {
+    margin-top: 5px;
+    margin-bottom: 20px; 
+    width: auto;
+    height: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 5px;
+    
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    border-top: 10px;
+    border-top-color: var(--main-color);
+}
+
+.blue-bar {
+    color: #0065FC;
+    border-top: 3px;
+    border-top: solid; 
+}
+
+.nav-links li a:hover {
+    color: var(--main-color);
+
+}
+
 /****** Accommodation And Popular ***********/
 .accommodation-and-popular {
     display: flex;
