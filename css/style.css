@@ -76,8 +76,6 @@ header {
     display: flex;
     gap: 50px;
     margin-top: 5px;
-    
-    
 }
 
 .nav-links li a {
@@ -85,14 +83,12 @@ header {
     color: black;
     font-weight: 500;
     font-size: 18px;
-    border-top: 10px;
-    border-top-color: var(--main-color);
 }
 
 .blue-bar {
     color: #0065FC;
-    border-top: 3px;
-    border-top: solid; 
+    border-top: 8px solid #0065FC;
+    padding-top: 33px;
 }
 
 .nav-links li a:hover {
