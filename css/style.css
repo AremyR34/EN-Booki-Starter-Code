@@ -98,6 +98,46 @@ header {
 
 }
 
+/* Search */
+.search {
+    margin-top: 10px;
+  }
+  
+  .search h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .search-form {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 30px;
+  }
+  
+  .search-form i {
+    background: var(--main-bg-color);
+    padding: 12px;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .search-form input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-left: none;
+  }
+  
+  .search-form button {
+    background: var(--main-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+  }
+
+
 /****** Accommodation And Popular ***********/
 .accommodation-and-popular {
     display: flex;
