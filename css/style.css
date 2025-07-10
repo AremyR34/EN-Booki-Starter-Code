@@ -105,7 +105,7 @@ header {
   
   .search h1 {
     font-size: 24px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   .search-form {
@@ -127,6 +127,12 @@ header {
     border: 1px solid #ccc;
     border-left: none;
   }
+
+  .search-form input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; /* bold placeholder text */
+    color: black; 
+  }
   
   .search-form button {
     background: var(--main-color);
@@ -136,7 +142,6 @@ header {
     border-radius: 0 10px 10px 0;
     cursor: pointer;
   }
-
 
 /****** Accommodation And Popular ***********/
 .accommodation-and-popular {
