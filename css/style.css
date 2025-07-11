@@ -144,6 +144,38 @@ header {
     cursor: pointer;
   }
 
+  /* Filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 0;
+  }
+  
+  .filters button {
+    background: var(--filter-bg-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .filters button:hover {
+    background: var(--main-color);
+    color: white;
+  }
+  
+  .info-text {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+
 /****** Accommodation And Popular ***********/
 .accommodation-and-popular {
     display: flex;
