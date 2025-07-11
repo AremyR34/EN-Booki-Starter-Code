@@ -157,7 +157,7 @@ header {
   .filters button {
     background: white;
     border: 2px solid;
-    border-color: var(--main-bg-color);
+    border-color: var(--dark-grey-color);
     padding: 10px 15px;
     border-radius: 25px;
     display: flex;
@@ -174,7 +174,7 @@ header {
   
   .info-text {
     font-size: 14px;
-    color: gray;
+    color: black;
     margin-bottom: 20px;
   }
 
