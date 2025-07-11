@@ -154,8 +154,9 @@ header {
   }
   
   .filters button {
-    background: var(--filter-bg-color);
-    border: none;
+    background: white;
+    border: 3px;
+    border-color: var(--main-bg-color);
     padding: 10px 15px;
     border-radius: 25px;
     display: flex;
@@ -166,8 +167,8 @@ header {
   }
   
   .filters button:hover {
-    background: var(--main-color);
-    color: white;
+    background: var(--filter-bg-color);
+    color: black;
   }
   
   .info-text {
