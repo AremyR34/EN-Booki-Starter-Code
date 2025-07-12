@@ -55,7 +55,7 @@ body {
     color: var(--main-bg-color)
 }
 
-/****** Header ***********/
+/****** Header section w/logo & links ***********/
 header {
     padding-top: 20px;
 }
@@ -99,40 +99,42 @@ header {
 
 }
 
-/* Search */
+/* Search section */
 .search {
     margin-top: 10px;
   }
   
   .search h1 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .search-form {
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 30px;
   }
   
   .search-form i {
     background: var(--main-bg-color);
-    padding: 12px;
-    border-radius: 10px 0 0 10px;
-    color: black; /* overrides global blue color */
+    padding: 20px;
+    border-radius: 15px 0 0 15px;
+    color: black; 
+    font-size: 20px;
   }
   
   .search-form input {
     flex: 1;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid var(--main-bg-color);
     border-left: none;
+    font-size: 20px;
   }
 
   .search-form input::placeholder {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700; /* bold placeholder text */
+    font-weight: 600; /* bold placeholder text */
     color: black;
     text-align: center; 
   }
@@ -140,20 +142,22 @@ header {
   .search-form button {
     background: var(--main-color);
     color: white;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 20px;
     border: none;
-    padding: 12px 20px;
-    border-radius: 0 10px 10px 0;
+    padding: 13px 20px;
+    border-radius: 0 15px 15px 0;
     cursor: pointer;
   }
 
-  /* Filters */
+  /* Filters section */
   .filters {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
     margin: 25px 0;
+    font-weight: bold;
   }
   
   .filters button {
@@ -174,10 +178,12 @@ header {
     color: black;
   }
   
-  .info-text {
-    font-size: 20px;
+  /****** Accommodation options section ***********/
+  .accommodation-options {
+    font-size: 15px;
     color: black;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
 /****** Accommodation And Popular ***********/
