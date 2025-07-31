@@ -197,6 +197,23 @@ header {
     align-items: center;
 
   }
+
+  /****** Paris Accommodation Section ***********/
+  .accommodation-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .accommodation-cards .card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
   
 
 /****** Accommodation And Popular ***********/
