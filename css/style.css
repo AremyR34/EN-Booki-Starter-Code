@@ -56,56 +56,73 @@ body {
     color: var(--main-bg-color)
 }
 
-
 /****** Header section w/logo & links ***********/
-header {
-    padding-top: 20px;
-}
+body { margin: 0; }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 30px;
 }
 
 .logo-img {
     width: 60px;
     height: 20px;
-    padding-top: 30px, 50px, 30px, 50px;
-    gap: 10px;
+    padding-top: 30px;
 }
 
-.nav-links {
-    list-style: none;
+.nav-buttons {
     display: flex;
-    gap: 50px;
-    margin-top: 5px;
+    align-items: flex;
+    height: 35px;
+    gap: 68px;
 }
 
-.nav-links li a {
-    text-decoration: none;
+.nav-btn {
+    display: flex;
+    align-items: flex-end;   /* pushes the text to the bottom */
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 14px;
+    font: 400 16px/1 "Raleway", sans-serif;
     color: black;
-    font-weight: 10px;
-    font-size: 18px;
-}
+    border-top: 2px solid transparent;
+    text-decoration: none;
+  }
 
-.blue-bar {
-    border-top: 8px solid #0065FC;
-    padding-top: 33px;
-}
-
-.nav-links li a:hover {
+.nav-btn:hover {
     color: var(--main-color);
+  }
 
-}
+.nav-btn.blue-bar {
+    color: var(--main-color);
+    border-top-color: var(--main-color);
+    
+  }
+
 
 /* Search section */
+  .search {
+    padding-top: 30px;
+  }
   
   .search h1 {
     font-size: 22px;
     font-weight: 700;
+    margin: 0;
   }
+
+  .search p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 8px; 
+  }
+
+
   
   .search-form {
     display: flex;
