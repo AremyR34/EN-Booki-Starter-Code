@@ -129,16 +129,14 @@ body { margin: 0; }
 
   .search-bar {
     display: flex;
-    width: 301px;
+    width: 301px;   /* Figma width */
     height: 49px;
     border-radius: 15px;
     overflow: hidden;
   }
   
-  /* Left icon pill */
   .search-icon {
-    width: 49px;
-    height: 49px;
+    flex: 0 0 50px;              /* fixed 50px */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,33 +147,33 @@ body { margin: 0; }
     font-size: 18px;
   }
   
-  /* Input section */
   .search-bar input {
-    flex: 1;
+    flex: 1 1 auto;              /* takes remaining space */
+    min-width: 0;                /* allow shrinking so button doesn't */
     height: 49px;
     border: none;
     font-size: 16px;
     font-weight: 700;
-    color: black;
-    background: white;
-    padding: 0 12px;
+    padding: 0 24px;
     outline: none;
+    text-align: center;
   }
+
   .search-bar input::placeholder {
-    color: black;
-    opacity: 1;
+    color: black;               /* placeholder color */
+    opacity: 1;                 /* full opacity */
   }
   
-  /* Button section */
   .search-bar button {
-    background: var(--main-color); /* blue */
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    width: 96px;
+    flex: 0 0 96px;              /* <- fixed 96px, no shrinking */
     height: 49px;
     border: none;
+    background: var(--main-color);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
     cursor: pointer;
+    border-radius: 0 15px 15px 0;
   }
 
   /* Filters section */
