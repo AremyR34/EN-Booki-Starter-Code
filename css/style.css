@@ -311,6 +311,12 @@ body { margin: 0; }
     color: var(--filter-bg-color)
   }
 
+  .show-more {
+    font-weight: 700;
+    padding-top: 30px;
+    font-size: 18px;
+  }
+
 /****** Popular ***********/
 .popular {
     width: 32%;
