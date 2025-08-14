@@ -52,10 +52,6 @@ body {
     font-weight: 700;
 }
 
-.neutralStar {
-    color: var(--main-bg-color)
-}
-
 /****** Header section w/logo & links ***********/
 body { margin: 0; }
 
