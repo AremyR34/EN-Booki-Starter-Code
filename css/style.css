@@ -70,7 +70,7 @@ body { margin: 0; }
 
 .nav-buttons {
     display: flex;
-    align-items: flex;
+    align-items: center;
     height: 35px;
     gap: 68px;
 }
@@ -82,7 +82,7 @@ body { margin: 0; }
     border: none;
     outline: none;
     cursor: pointer;
-    padding-top: 14px;
+    padding-top: 16px;
     font: 400 16px/1 "Raleway", sans-serif;
     color: black;
     border-top: 2px solid transparent;
