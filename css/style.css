@@ -314,8 +314,9 @@ body { margin: 0; }
     font-size: 14px;
   }
 
-  .neutral-star {
-    color: var(--filter-bg-color)
+  .card-rating .neutral-star {
+    color: var(--main-bg-color);
+    
   }
 
   .show-more {
