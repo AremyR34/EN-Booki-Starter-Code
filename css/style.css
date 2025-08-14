@@ -276,7 +276,6 @@ body { margin: 0; }
     height: 124px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    border: 5px;
     object-fit: cover;
   }
   
